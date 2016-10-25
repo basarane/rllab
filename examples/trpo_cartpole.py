@@ -6,6 +6,8 @@ from rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
 
 env = normalize(CartpoleEnv())
 
+print "Test123"
+
 policy = GaussianMLPPolicy(
     env_spec=env.spec,
     # The neural network policy should have two hidden layers, each with 32 hidden units.
